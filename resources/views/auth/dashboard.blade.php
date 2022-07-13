@@ -88,7 +88,7 @@
 				</div>
 				<div class="row dark">
 					<div class="col-3 transaction-table-body">
-						20/12/2021
+						09/12/2021
 					</div>
 					<div class="col-3 transaction-table-body">
 						500000
