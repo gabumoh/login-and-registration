@@ -1,0 +1,149 @@
+.dashboard {
+	width: 100%;
+	padding: 40px;
+	background-color: #EEEEEE;
+	float: left;
+}
+
+.dashboard-body {
+	width: 100%;
+	max-width: 600px;
+	padding: 10px;
+	margin: 30px auto;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+.profile-picture {
+	width: 200px;
+	height: 200px;
+	border: 2px solid blue;
+	border-radius: 50%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.profile-picture img {
+	width: 100%;
+	height: auto;
+}
+
+.profile-name {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0px;
+	font-family: "Arial";
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+.profile-username {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0px;
+	font-family: "Arial";
+	font-weight: 200;
+	font-style: italic;
+	text-align: center;
+	color: black;
+}
+
+.profile-account-balance {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 24px;
+	line-height: 1.5;
+	letter-spacing: 0px;
+	font-family: "Arial";
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+.profile-account-balance .balance {
+	font-size: 40px;
+}
+
+.profile-action-btns {
+	width: 100%;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.btn {
+	width: 100%;
+	max-width: 150px;
+	height: 40px;
+	margin: 0px 10px;
+}
+
+.profile-transactions {
+	width: 100%;
+	margin: 40px 0px;
+	padding: 10px;
+}
+
+.transaction-header {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 0px;
+	font-family: "Arial";
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+.transaction-table {
+	width: 100%;
+	padding: 0;
+}
+
+.transaction-table .row {
+	padding: 10px 0px;
+}
+
+.transaction-table .row.dark {
+	background-color: gainsboro;
+}
+
+.transaction-table-header {
+	font-size: 18px;
+	line-height: 1.5;
+	letter-spacing: 0px;
+	font-family: "Arial";
+	font-weight: bold;
+	text-align: left;
+	color: black;
+}
+
+.transaction-table-body {
+	font-size: 18px;
+	line-height: 1.5;
+	letter-spacing: 0px;
+	font-family: "Arial";
+	font-weight: normal;
+	text-align: left;
+	color: black;
+}
